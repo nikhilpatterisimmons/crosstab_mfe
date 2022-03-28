@@ -2,7 +2,7 @@
   "name": "@gfk/crosstab",
   "scripts": {
     "start": "webpack serve",
-    "start:standalone": "webpack serve --env standalone",
+    "start:standalone": "webpack serve --port 4002 --env standalone",
     "build": "concurrently yarn:build:*",
     "build:webpack": "set port=8081 && webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
