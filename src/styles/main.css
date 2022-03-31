@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "Lato",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+button,
+input {
+  font-family:
+    "Lato",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+code {
+  font-family: "source-code-pro", "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.light-blue {
+  background-color: rgb(78 143 203 / 10%) !important;
+}
+
+.light-blue-header {
+  background-color: rgb(78 143 203 / 30%) !important;
+}
+
+.light-purple {
+  background-color: #c37cff !important;
+}
+
+.light-pink {
+  background-color: #ff87e6 !important;
+}
+
+.light-orange {
+  background-color: #ffb340 !important;
+}
+
+.medium-teal {
+  background-color: #009b93 !important;
+}
+
+.medium-green {
+  background-color: #4e9700 !important;
+}
+
+.light-red {
+  background-color: #ff6585 !important;
+}
+
+.transperent {
+  background-image: url("../assets/images/IconBlock.png");
+  background-size: 20px 20px;
+}
+
+*[disabled] {
+  cursor: not-allowed;
+  color: rgb(116 116 116 / 25%) !important;
+  pointer-events: none;
+}
+
+/* ::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  overflow: auto;
+}
+
+/* Handle */
+
+/* ::-webkit-scrollbar-thumb {
+  background: #dadada;
+  height: 8px;
+  width: 8px;
+}  */
