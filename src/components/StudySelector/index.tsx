@@ -39,6 +39,12 @@ const StudySelector = ({
     }
   }, [studyList]);
 
+  const setStudyEvent = (study: any) => {
+    const customeEvent = new CustomEvent("eventFromCrtb", { detail: study });
+    console.log(study);
+    window.dispatchEvent(customeEvent);
+  };
+
   // useEffect(() => {
   //   setStudy(defaultStudy);
   //   if (defaultStudy) {
@@ -188,7 +194,7 @@ const StudySelector = ({
             <StudyAccordion
               key={sg.sgd}
               sg={sg}
-              setStudy={() => {}}
+              setStudy={setStudyEvent}
               handleAccordion={handleAccordion}
               selectedPn={study ? study.pn : undefined}
             />
